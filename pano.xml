@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="19982" appversion="7.0.4" id="node1">
+  <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" width="2551" height="2551" levelbias="0.400" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1">
+    <level height="2551" preload="0" predecode="0" width="2551"/>
+    <level height="1275" preload="0" predecode="0" width="1275"/>
+    <level height="637" preload="0" predecode="0" width="637"/>
+    <level height="318" preload="1" predecode="1" width="318"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="2" pannorth="192.743">
+    <start pan="88.9219" fov="95.0621" projection="4" tilt="7.59076"/>
+    <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+    <min pan="-180" fovpixel="2" tilt="-53.8542"/>
+    <max fovfisheye="360" pan="180" fov="140" fovstereographic="330" tilt="48"/>
+  </view>
+  <userdata latitude="41.58285647" comment="" longitude="41.66173875" source="" heading="192.743" author="" datetime="26.11.2024 14:15" info="" title="" altitude="34.00" copyright="" tags="მიწა. გოთუას 17" nodeid="node1" description="" customnodeid=""/>
+  <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+    <label borderalpha="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" border="1" width="180" wordwrap="1" height="20" background="1" textalpha="1" textcolor="0x000000" backgroundalpha="1" borderradius="1"/>
+    <polystyle borderalpha="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition zoomafteroutfov="40" blendcolor="0x000000" enabled="1" zoomin="0" zoomoutpause="1" zoomfov="40" blendtime="1" zoomafterinfov="140" softedge="0" delay="none" zoomout="0" type="crossdissolve" zoomspeed="2"/>
+  <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  <control contextvr="1" invertcontrol="1" sensitivity="8" contextprojections="0" invertwheel="1" simulatemass="1" lockedwheel="0" zoomcentercursor="1" dblclickfullscreen="0" hideabout="0" lockedmouse="0" speedwheel="1" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" lockedkeyboard="0"/>
+  <projectuserdata title="" comment="" author="" copyright="" tags="" description=""/>
+  <map index="0" mapstyle="streets" mapmaxzoom="18" googlecustomstylecode="" title="" id="Map01" type="web" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapprovider="openstreetmap"/>
+  <map index="1" mapstyle="streets" mapmaxzoom="18" googlecustomstylecode="" title="" id="Map02" type="web" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapprovider="custom"/>
+  <map index="2" mapstyle="streets" mapmaxzoom="18" googlecustomstylecode="" title="" id="Map03" type="web" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapprovider="openstreetmap"/>
+  <map index="3" mapstyle="streets" mapmaxzoom="18" googlecustomstylecode="" title="" id="Map04" type="web" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapprovider="openstreetmap"/>
+</panorama>
