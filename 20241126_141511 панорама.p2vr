@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig version="7.0.4" rev="19982">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>20241126_141511 панорама.jpg</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>88.9219</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>7.59076</start>
+        <min>-60</min>
+        <max>48</max>
+      </tilt>
+      <fov>
+        <start>95.0621</start>
+        <minunit>pixels</minunit>
+        <minpixels>2</minpixels>
+        <max>140</max>
+        <maxfovstereographic>330</maxfovstereographic>
+        <maxfovfisheye>360</maxfovfisheye>
+      </fov>
+      <flyinstart>
+        <pan>0</pan>
+        <tilt>-90</tilt>
+        <fov>170</fov>
+      </flyinstart>
+      <pannorth>192.743</pannorth>
+      <scaletofit>1</scaletofit>
+      <projection>rectilinear</projection>
+      <flyinprojection>stereo</flyinprojection>
+      <defaultviewtimestamp>2024-11-26T21:43:21</defaultviewtimestamp>
+    </viewingparameter>
+    <userdata>
+      <customprops/>
+      <capturedatetime>2024-11-26T14:15:11</capturedatetime>
+      <latitude>41.58285647</latitude>
+      <longitude>41.66173875</longitude>
+      <altitude>34</altitude>
+      <datetime>26.11.2024 14:15</datetime>
+      <tags>მიწა. გოთუას 17</tags>
+    </userdata>
+    <projectsettings>
+      <userdata>
+        <customprops/>
+      </userdata>
+      <translationsavailable>
+        <value id="Проект">ru-RU</value>
+      </translationsavailable>
+      <translationsnames>
+        <value id="Проект">русский</value>
+      </translationsnames>
+      <translationsenabled>
+        <value id="Проект">true</value>
+      </translationsenabled>
+    </projectsettings>
+    <floorplans>
+      <floorplan>
+        <id>Map01</id>
+        <mapprovider>openstreetmap</mapprovider>
+        <mapstyle>streets</mapstyle>
+        <type>web</type>
+      </floorplan>
+      <floorplan>
+        <id>Map02</id>
+        <mapprovider>custom</mapprovider>
+        <mapstyle>streets</mapstyle>
+        <type>web</type>
+      </floorplan>
+      <floorplan>
+        <id>Map03</id>
+        <mapprovider>openstreetmap</mapprovider>
+        <mapstyle>streets</mapstyle>
+        <type>web</type>
+      </floorplan>
+      <floorplan>
+        <id>Map04</id>
+        <mapprovider>openstreetmap</mapprovider>
+        <mapstyle>streets</mapstyle>
+        <type>web</type>
+      </floorplan>
+    </floorplans>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>F:/panio 2 vr html link/index.html</filename>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"/>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoomafterinfov>140</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2551</tilesize>
+        <filename>output/pano.xml</filename>
+        <windowwidth>720</windowwidth>
+        <skinfile>$d/miwa gothua 17 map.ggsk</skinfile>
+        <invertwheel>1</invertwheel>
+        <lockedwheel>0</lockedwheel>
+      </htmlcss>
+      <htmlcss>
+        <html>
+          <values>
+            <value id="cachebust">true</value>
+            <value id="css"/>
+            <value id="fitcover">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">true</value>
+          </values>
+          <enabled>1</enabled>
+          <filename>F:/panio 2 vr html link/index.html</filename>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoomafterinfov>140</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2551</tilesize>
+        <filename>output/pano.xml</filename>
+      </htmlcss>
+      <placeidcache>{"entries":[]}</placeidcache>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <ggloudproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
